@@ -1,0 +1,126 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styles */
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* New Gradient */
+    color: #ffffff; /* Updated Text Color */
+    padding: 20px;
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.7); /* Slightly Darker Background */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Darker Shadow */
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile-photo img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid #ffffff; /* Updated Border Color */
+    margin-bottom: 20px;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #ffffff; /* Updated Border Color */
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #fbc531; /* Updated Subheading Color */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: #fbc531; /* Updated Link Color */
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+#home {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.skill-box {
+    background: rgba(255, 255, 255, 0.2); /* Updated Background */
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Projects Section */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.project-box {
+    background: rgba(255, 255, 255, 0.2); /* Updated Background */
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer a {
+    color: #fbc531; /* Updated Link Color */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
